@@ -1,0 +1,177 @@
+@import url(base.css);
+.bg{
+    width: 7.5rem;
+    height:13.34rem;
+    background: #eaecf0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.header{
+    width: 4.26rem;
+    height: 4.26rem;
+    position: absolute;
+    top: 0.98rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.circle1{
+    width: 4.26rem;
+    height: 4.26rem;
+    border-radius: 50%;
+    background: rgba(197,237,219,0.3);
+    position: absolute;
+    top: 0.98rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.circle2{
+    width: 3.22rem;
+    height: 3.22rem;
+    border-radius: 50%;
+    background: rgba(197,237,219,0.5);
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.circle3{
+    width: 2.18rem;
+    height: 2.18rem;
+    border-radius: 50%;
+    background: rgba(197,237,219,1);
+    position: absolute;
+    top: 2.02rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.circle4{
+    width: 0.66rem;
+    height: 0.66rem;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(left,#33d14d,#33c38f);
+    background-image: -moz-linear-gradient(left,#33d14d,#33c38f);
+    background-image: -o-linear-gradient(left,#33d14d,#33c38f);
+    background-image: -ms-linear-gradient(left,#33d14d,#33c38f);
+    background-image: linear-gradient(left,#33d14d,#33c38f);
+    box-shadow: 0 0.06rem 0.2rem 0.03rem rgba(51,209,77,0.5);
+    position: absolute;
+    top: 2.35rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.circle5{
+    width: 1.24rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-image: -webkit-linear-gradient(left,#33d14d,#33c38f);
+    background-image: -moz-linear-gradient(left,#33d14d,#33c38f);
+    background-image: -o-linear-gradient(left,#33d14d,#33c38f);
+    background-image: -ms-linear-gradient(left,#33d14d,#33c38f);
+    background-image: linear-gradient(left,#33d14d,#33c38f);
+    box-shadow: 0 0.06rem 0.2rem 0.03rem rgba(51,209,77,0.5);
+    position: absolute;
+    top: 3.16rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.yanzheng{
+    font-size: 0.28rem;
+    font-family: "苹方";
+    color: #33d14d;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 5.6rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.stop{
+    font-size: 0.22rem;
+    font-family: "苹方";
+    color:rgba(0,0,0,0.4);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 6.06rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.in{
+    width:5.32rem;
+    height:0.56rem;
+    border-bottom: 2px solid rgba(0,0,0,0.07);
+    position: absolute;
+    top: 7.96rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.code{
+    width: 0.18rem;
+    height: 0.08rem;
+    border-radius: 0.3rem;
+    background:rgba(255,203,46,1);
+    box-shadow: 0 0.01rem 0.2rem 0.022rem rgba(255,203,46,0.5);
+    float: left;
+    margin-top: 0.24rem;
+}
+.put{
+    display: block;
+    border: none;
+    background: none;
+    color: rgba(0,0,0,0.2);
+    font-size: 0.24rem;
+    padding: 0 0.1rem;
+    line-height: 0.56rem;
+    float: left;
+    margin-left:0.1rem;
+}
+.del{
+    font-size: 0.34rem;
+    color:rgba(0,0,0,0.4);
+    font-weight: bolder;
+    float: right;
+    margin-top:0.04rem;
+}
+.shibie{
+    display: block;
+    width:4.5rem;
+    height: 0.7rem;
+    border-radius: 0.35rem;
+    border:none;
+    font-family: "苹方";
+    font-size: 0.24rem;
+    color:#fff;
+    background-image: -webkit-linear-gradient(left,#3e9dff,#41c3ff);
+    background-image: -moz-linear-gradient(left,#3e9dff,#41c3ff);
+    background-image: -o-linear-gradient(left,#3e9dff,#41c3ff);
+    background-image: -ms-linear-gradient(left,#3e9dff,#41c3ff);
+    background-image: linear-gradient(left,#3e9dff,#41c3ff);
+    box-shadow: 0 0.06rem 0.2rem 0.04rem rgba(65,195,255,0.5);
+    position: absolute;
+    top: 10.56rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}

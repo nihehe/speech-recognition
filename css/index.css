@@ -1,0 +1,63 @@
+@import url(base.css);
+.bg{
+    width: 7.5rem;
+    height:13.34rem;
+    background: #eaecf0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.head{
+    width: 2.96rem;
+    height: 2.96rem;
+    margin:1.54rem auto 0.19rem;
+}
+.head img{
+    display: block;
+    width: 2.96rem;
+    height: 2.96rem;
+}
+.text{
+    font-size: 0.36rem;
+    font-family: San Francisco Display;
+    color: rgba(0,0,0,0.7);
+    text-align: center;
+    font-weight: bolder;
+    height: 1rem;
+}
+.login{
+    display: block;
+    width:4.5rem;
+    height: 0.7rem;
+    border-radius: 0.35rem;
+    margin:3.96rem auto 0;
+    border:none;
+    font-family: "苹方";
+    font-size: 0.24rem;
+    color:#fff;
+    background-image: -webkit-linear-gradient(left,#3e9dff,#41c3ff);
+    background-image: -moz-linear-gradient(left,#3e9dff,#41c3ff);
+    background-image: -o-linear-gradient(left,#3e9dff,#41c3ff);
+    background-image: -ms-linear-gradient(left,#3e9dff,#41c3ff);
+    background-image: linear-gradient(left,#3e9dff,#41c3ff);
+    box-shadow: 0 0.06rem 0.2rem 0.04rem rgba(65,195,255,0.5);
+}
+.face{
+    display: block;
+    width:4.5rem;
+    height: 0.7rem;
+    border-radius: 0.35rem;
+    margin:0.21rem auto 0;
+    border:none;
+    font-family: "苹方";
+    font-size: 0.24rem;
+    color:#fff;
+    background-image: -webkit-linear-gradient(left,#3de33f,#33d17b);
+    background-image: -moz-linear-gradient(left,#3de33f,#33d17b);
+    background-image: -o-linear-gradient(left,#3de33f,#33d17b);
+    background-image: -ms-linear-gradient(left,#3de33f,#33d17b);
+    background-image: linear-gradient(left,#3de33f,#33d17b);
+    box-shadow: 0 0.06rem 0.2rem 0.04rem rgba(61,228,61,0.5);
+}
