@@ -1,0 +1,79 @@
+@import url(base.css);
+.bg{
+    width: 7.5rem;
+    height:13.34rem;
+    background: #eaecf0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.face{
+    width: 6.20rem;
+    height: 3.87rem;
+    margin:4.31rem auto;
+    position: relative;
+}
+.face img{
+    display: block;
+    width: 6.20rem;
+    height: 3.87rem;
+}
+.face .circle img{
+    display: block;
+    width: 1.39rem;
+    height: 0.96rem;
+    position: absolute;
+    top:0.9rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text{
+    font-size: 0.26rem;
+    font-family: "苹方";
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    top:2.04rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.yes{
+    display: block;
+    width:1.5rem;
+    height: 0.64rem;
+    border-radius: 0.35rem;
+    border:none;
+    font-family: "苹方";
+    font-size: 0.24rem;
+    color:#fff;
+    background-image: -webkit-linear-gradient(left,#3de43e,#33d17b);
+    background-image: -moz-linear-gradient(left,#3de43e,#33d17b);
+    background-image: -o-linear-gradient(left,#3de43e,#33d17b);
+    background-image: -ms-linear-gradient(left,#3de43e,#33d17b);
+    background-image: linear-gradient(left,#3de43e,#33d17b);
+    box-shadow: 0 0.06rem 0.2rem 0.04rem rgba(61,227,64,1);
+    position: absolute;
+    top: 7rem;
+    left: 1.82rem;
+}
+.no{
+    display: block;
+    width:1.5rem;
+    height: 0.64rem;
+    border-radius: 0.35rem;
+    border:none;
+    font-family: "苹方";
+    font-size: 0.24rem;
+    color:#3de43e;
+    background:rgba(0,0,0,0.1);
+    position: absolute;
+    top: 7rem;
+    right: 1.8rem;
+}
