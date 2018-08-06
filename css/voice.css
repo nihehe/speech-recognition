@@ -1,0 +1,77 @@
+@import url(base.css);
+.bg{
+    width: 7.5rem;
+    height:13.34rem;
+    background: #eaecf0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bg img{
+    display: block;
+    width: 7.5rem;
+    height: 13.34rem;
+}
+.bg .yinpin img{
+    display: block;
+    width: 6.33rem;
+    height: 1.58rem;
+    position: absolute;
+    top:4.38rem;
+    left: 0.82rem;
+}
+.yanzheng{
+    font-size: 0.22rem;
+    font-family: "苹方";
+    color: rgba(0,0,0,0.4);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 6.6rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.yanzheng1{
+    font-size: 0.22rem;
+    font-family: "苹方";
+    color: rgba(0,0,0,0.4);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 7rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.shibie{
+    display: block;
+    width:4.5rem;
+    height: 0.7rem;
+    border-radius: 0.35rem;
+    border:none;
+    font-family: "苹方";
+    font-size: 0.24rem;
+    color:#fff;
+    background-image: -webkit-linear-gradient(left,#ffab37,#ffce37);
+    background-image: -moz-linear-gradient(left,#ffab37,#ffce37);
+    background-image: -o-linear-gradient(left,#ffab37,#ffce37);
+    background-image: -ms-linear-gradient(left,#ffab37,#ffce37);
+    background-image: linear-gradient(left,#ffab37,#ffce37);
+    box-shadow: 0 0.06rem 0.2rem 0.04rem rgba(255,206,55,0.5);
+}
+a{
+    display: block;
+    width: 4.5rem;
+    height:0.7rem;
+    position: absolute;
+    top: 10.56rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}

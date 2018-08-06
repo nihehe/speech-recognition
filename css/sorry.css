@@ -1,0 +1,64 @@
+@import url(base.css);
+.bg{
+    width: 7.5rem;
+    height:13.34rem;
+    background: #eaecf0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bg img{
+    display: block;
+    width: 7.5rem;
+    height: 13.34rem;
+}
+.yanzheng{
+    font-size: 0.32rem;
+    font-family: "苹方";
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 1.48rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.stop{
+    font-size: 0.24rem;
+    font-family: "苹方";
+    color:rgba(255,255,255,0.5);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 1.94rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.shibie{
+    display: block;
+    width:4.5rem;
+    height: 0.7rem;
+    border-radius: 0.35rem;
+    border:none;
+    font-family: "苹方";
+    font-size: 0.24rem;
+    color:rgba(0,0,0,0.3);
+    background:#dee0e4;
+}
+a{
+    display: block;
+    width: 4.5rem;
+    height:0.7rem;
+    position: absolute;
+    top: 10.56rem;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}

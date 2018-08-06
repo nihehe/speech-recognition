@@ -46,7 +46,7 @@
 }
 .yess .yes{
     display: block;
-    width:1.5rem;
+    width:3.1rem;
     height: 0.64rem;
     border-radius: 0.35rem;
     border:none;
@@ -60,30 +60,11 @@
     background-image: linear-gradient(left,#3de43e,#33d17b);
     box-shadow: 0 0.06rem 0.2rem 0.04rem rgba(61,227,64,1);
 }
-.noo .no{
-    display: block;
-    width:1.5rem;
-    height: 0.64rem;
-    border-radius: 0.35rem;
-    border:none;
-    font-family: "苹方";
-    font-size: 0.24rem;
-    color:#3de43e;
-    background:rgba(0,0,0,0.1);
-}
 .yess{
     display: block;
-    width: 1.5rem;
+    width: 3.1rem;
     height: 0.64rem;
     position: absolute;
     top: 2.71rem;
-    left: 1.2rem;
-}
-.noo{
-    display: block;
-    width: 1.5rem;
-    height: 0.64rem;
-    position: absolute;
-    top: 2.71rem;
-    right: 1.2rem;
+    left: 1.55rem;
 }

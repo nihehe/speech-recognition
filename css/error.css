@@ -115,10 +115,56 @@
     margin-right: auto;
     margin-left: auto;
 }
+.prompt{
+    width: 5.32rem;
+    height: 0.44rem;
+    font-size: 0.22rem;
+    font-family: "苹方";
+    font-weight: bold;
+    line-height: 0.44rem;
+    color: #ff1239;
+    position: absolute;
+    top: 7.62rem;
+    left: 1.06rem;
+}
+.circle6{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(left,#ff2246,#ff7022);
+    background-image: -moz-linear-gradient(left,#ff2246,#ff7022);
+    background-image: -o-linear-gradient(left,#ff2246,#ff7022);
+    background-image: -ms-linear-gradient(left,#ff2246,#ff7022);
+    background-image: linear-gradient(left,#ff2246,#ff7022);
+    box-shadow: 0 0.06rem 0.2rem 0.015rem rgba(255,34,70,0.47);
+    float: left;
+    margin-left: 0.42rem;
+    margin-top: 0.08rem;
+    margin-right: 0.24rem;
+    position: relative;
+}
+.circle7{
+    width: 0.05rem;
+    height: 0.12rem;
+    border-radius: 0.3rem;
+    background: #fff;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.54rem;
+ }
+.circle8{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 0.26rem;
+    left: 0.54rem;
+}
 .in{
     width:5.32rem;
     height:0.56rem;
-    border-bottom: 2px solid rgba(0,0,0,0.07);
+    border-bottom: 2px solid rgb(255,18,57);
     position: absolute;
     top: 7.96rem;
     left: 0;
@@ -130,8 +176,7 @@
     width: 0.18rem;
     height: 0.08rem;
     border-radius: 0.3rem;
-    background:rgba(255,203,46,1);
-    box-shadow: 0 0.01rem 0.2rem 0.022rem rgba(255,203,46,0.5);
+    background:rgba(0,0,0,0.21);
     float: left;
     margin-top: 0.24rem;
 }
@@ -139,12 +184,15 @@
     display: block;
     border: none;
     background: none;
-    color: rgba(0,0,0,0.2);
+    color: #ff1239;
     font-size: 0.24rem;
     padding: 0 0.1rem;
     line-height: 0.56rem;
     float: left;
     margin-left:0.1rem;
+}
+input::-webkit-input-placeholder{
+     color:#ff1239;
 }
 .del{
     font-size: 0.34rem;
@@ -154,19 +202,15 @@
     margin-top:0.04rem;
 }
 .shibie{
+    display: block;
     width:4.5rem;
     height: 0.7rem;
     border-radius: 0.35rem;
     border:none;
     font-family: "苹方";
     font-size: 0.24rem;
-    color:#fff;
-    background-image: -webkit-linear-gradient(left,#3e9dff,#41c3ff);
-    background-image: -moz-linear-gradient(left,#3e9dff,#41c3ff);
-    background-image: -o-linear-gradient(left,#3e9dff,#41c3ff);
-    background-image: -ms-linear-gradient(left,#3e9dff,#41c3ff);
-    background-image: linear-gradient(left,#3e9dff,#41c3ff);
-    box-shadow: 0 0.06rem 0.2rem 0.04rem rgba(65,195,255,0.5);
+    color:rgba(0,0,0,0.3);
+    background: #dee0e4;
     /*position: absolute;*/
     /*top: 10.56rem;*/
     /*left: 0;*/
@@ -177,7 +221,7 @@
 a{
     display: block;
     width: 4.5rem;
-    height: 0.7rem;
+    height:0.7rem;
     position: absolute;
     top: 10.56rem;
     left: 0;
